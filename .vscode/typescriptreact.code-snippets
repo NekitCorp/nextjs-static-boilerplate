@@ -1,0 +1,26 @@
+{
+    "React component": {
+        "scope": "typescriptreact",
+        "prefix": "rc",
+        "body": [
+            "import React from 'react';",
+            "import css from './${0:$TM_FILENAME_BASE}.module.css';",
+            "",
+            "type I${0:$TM_FILENAME_BASE}Props = {",
+            "}",
+            "",
+            "const ${0:$TM_FILENAME_BASE}: React.FC<I${0:$TM_FILENAME_BASE}Props> =",
+            "    () => {",
+            "        return null;",
+            "    };",
+            "",
+            "export default ${0:$TM_FILENAME_BASE};"
+        ],
+        "description": "create OW specific component"
+    },
+    "useState": {
+        "scope": "typescript,typescriptreact",
+        "prefix": "us",
+        "body": "const [$1, set${1/(^.)(.*)/${1:/upcase}$2/}] = React.useState(${2|'',false|});"
+    }
+}
