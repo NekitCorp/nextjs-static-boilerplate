@@ -1,0 +1,21 @@
+.container {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+.header,
+.footer {
+    height: 150px;
+    background-color: #e7d900;
+}
+
+.main {
+    width: 100%;
+    max-width: 1170px;
+    flex-grow: 1;
+    padding-right: 16px;
+    padding-left: 16px;
+    margin-right: auto;
+    margin-left: auto;
+}
