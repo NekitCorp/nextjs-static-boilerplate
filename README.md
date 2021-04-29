@@ -13,7 +13,7 @@ Features:
 
 ## Output
 
-[gh-pages branch](/nekitcorp/nextjs-static-boilerplate/tree/gh-pages)
+[gh-pages branch](https://github.com/NekitCorp/nextjs-static-boilerplate/tree/gh-pages)
 
 ```
 /
