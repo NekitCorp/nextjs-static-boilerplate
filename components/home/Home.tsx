@@ -13,7 +13,7 @@ const Home: React.FC<IHomeProps> = ({ articleNames }) => {
             <ul className={css.list}>
                 {articleNames.map(name => (
                     <li key={name}>
-                        <Link href={`article/${name}`}>
+                        <Link href={`/article/${name}`}>
                             <a>{name}</a>
                         </Link>
                     </li>
