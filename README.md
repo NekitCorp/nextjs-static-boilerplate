@@ -2,6 +2,8 @@
 
 Next.js [Static HTML Export](https://nextjs.org/docs/advanced-features/static-html-export), which can be run standalone without the need of a Node.js server.
 
+[Demo](https://nekitcorp.github.io/nextjs-static-boilerplate/)
+
 Features:
 
 -   Generate content from markdown
@@ -10,6 +12,8 @@ Features:
 -   Automatic generation `sitemap.xml` and `robots.txt`
 
 ## Output
+
+[gh-pages branch](/nekitcorp/nextjs-static-boilerplate/tree/gh-pages)
 
 ```
 /
